@@ -1,3 +1,12 @@
 Cygwin- a layer that allows Unix-like commands to run on Windows.
-ssh command- securely connects to a remote server or system over a network using the Secure Shell (SSH) protocol. It is widely used for remote administration, file transfers, and running applications on remote machines.
-bash- a command-line interpreter and a scripting language. used on Unix-like operating systems such as Linux and macOS. It allows users to interact with the operating system by entering commands into a terminal. 
+ssh command- securely connects to a remote server or system over a network using the Secure Shell (SSH) protocol. It is widely used for remote administration, file transfers, 
+and running applications on remote machines.
+bash- a command-line interpreter and a scripting language. used on Unix-like operating systems such as Linux and macOS. It allows users to interact with the operating system
+by entering commands into a terminal. 
+
+We have to log into the game. The host is on port 2220.
+
+How to log:
+ssh -p port_number username@hostname
+
+ SSH usually runs on port 22; otherwise, we have to use the -p option
