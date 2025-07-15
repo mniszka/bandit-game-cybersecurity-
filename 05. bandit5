@@ -2,5 +2,7 @@ ls
 cd
 grep -rE '^[a-zA-Z0-9]{32}$' .
 
+the second way:
+
 
 
