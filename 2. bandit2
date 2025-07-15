@@ -1,0 +1,4 @@
+It's tricky. You cannot use "cat -"
+cat ./file_name
+
+
