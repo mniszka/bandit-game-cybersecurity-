@@ -1,0 +1,6 @@
+ls- list files
+cd- change directory
+du -disc usage
+there might be hidden files (starting with a dot . )
+ls -la
+
