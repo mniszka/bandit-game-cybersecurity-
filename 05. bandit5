@@ -1,4 +1,6 @@
 ls
 cd
-grep -rI -E '[a-zA-Z0-9]{32}' .
+grep -rE '^[a-zA-Z0-9]{32}$' .
+
+
 
