@@ -7,6 +7,6 @@ by entering commands into a terminal.
 We have to log into the game. The host is on port 2220.
 
 How to log:
-ssh -p port_number username@hostname
+ssh username@hostname -p port_number
 
  SSH usually runs on port 22; otherwise, we have to use the -p option
