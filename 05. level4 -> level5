@@ -3,6 +3,7 @@ cd
 grep -rE '^[a-zA-Z0-9]{32}$' .
 
 the second way:
+find . -type f | xargs file
 
 
 
