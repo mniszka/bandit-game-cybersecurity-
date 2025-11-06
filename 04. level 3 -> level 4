@@ -3,5 +3,8 @@ cd- change directory
 ls -la
 there might be hidden files (starting with a dot .  or dots ...)
 cat
+" "
 
 
+Blue colour means it is a folder
+White is for a file
