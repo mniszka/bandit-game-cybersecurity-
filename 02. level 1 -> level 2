@@ -1,4 +1,5 @@
 It's tricky. You cannot use "cat -"
+In Linux, file names can be unusual (like -, --help, or help help), and you need to use some tricks to open them — for example:
 cat ./file_name
 
 
