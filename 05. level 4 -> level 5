@@ -1,6 +1,11 @@
 ls
 cd
 grep -rE '^[a-zA-Z0-9]{32}$' .
+-r - recursively (searches in the current directory and its subdirectories)
+- E Extended regex 
+{32} - exactly 32 characters in a row
+^ - beginning of the line
+$- end of the line
 
 the second way:
 find . -type f | xargs file
